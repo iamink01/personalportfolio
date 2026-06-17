@@ -57,6 +57,7 @@
 
 
 /* CSS for mobile devices */
+
 @media screen and (min-width: 280px) and (max-width: 576px) {
     .hero {
         justify-content: center;
@@ -166,12 +167,22 @@
     .footer-list-items {
         margin: 0;
     }
-}
 .hero-img{
     max-width:350px;
     width:100%;
     height:auto;
     opacity:0.9;
+}
+    .menu{
+    width:100%;
+    left:0;
+    text-align:center;
+    z-index:1000;
+}
+
+.menu-list{
+    padding:20px 0;
+}
 }
 
 @media(max-width:768px){
