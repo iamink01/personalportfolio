@@ -74,8 +74,9 @@
     }
 
     .btn {
-        padding: 10px 30px;
-    }
+    padding:12px 24px;
+    min-height:48px;
+   }
 
     .logo {
         padding: 0 2rem;
@@ -201,5 +202,13 @@
 .hero-img{
     max-width:250px;
     margin-top:20px;
+}
+    .port-card{
+    transition:0.3s ease;
+}
+
+.port-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
 }
 }
