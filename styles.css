@@ -301,13 +301,13 @@
 .common-btn:hover {
     background-color: #fff;
     color: rgb(33,33,119);
-    border: 2px solid rgb(33,33,119)C;
+    border: 2px solid rgb(33,33,119);
     outline: none;
 }
 
 .ghost-btn {
     background-color: #fff;
-    color: rgb(33,33,119)C;
+    color: rgb(33,33,119);
     border: 2px solid rgb(33,33,119);
     outline: none;
 }
