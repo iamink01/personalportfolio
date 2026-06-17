@@ -1,10 +1,10 @@
 /* Styles defined for the desktop or the bigger screen devices*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -182,8 +182,9 @@ body {
     justify-content: space-between;
 }
 
-.contact-form-container {
-    width: 50%;
+.contact-form-container{
+    width:100%;
+    max-width:600px;
 }
 
 .contact-form {
@@ -201,8 +202,9 @@ body {
     width: 83%;
 }
 
-.contact-details {
-    width: 50%;
+.contact-details{
+    width:100%;
+    max-width:500px;
 }
 
 /* Footer Styles */
