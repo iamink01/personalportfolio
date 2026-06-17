@@ -59,15 +59,11 @@ body {
 
 /* Main Hero Section Styles */
 .hero {
-    background-image: url("C:\Users\dell\Downloads\ChatGPT Image Apr 18, 2025, 09_51_55 PM.png");
+    .hero {
+    background-image: url("./Images/hero-bg.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    margin: 4.8rem 0;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero .intro {
